@@ -1,0 +1,28 @@
+{
+  "name": "node_js_2022_12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-a-z/node_js_2022_12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/git-a-z/node_js_2022_12/issues"
+  },
+  "homepage": "https://github.com/git-a-z/node_js_2022_12#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  }
+}
