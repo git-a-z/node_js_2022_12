@@ -1,13 +1,17 @@
 {
   "name": "node_js_2022_12",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hw4": "node ./lesson_4/hw_4.js"
   },
   "type": "module",
+  "bin": {
+    "reader": "./lesson_4/hw_4.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/git-a-z/node_js_2022_12.git"
@@ -20,7 +24,9 @@
   },
   "homepage": "https://github.com/git-a-z/node_js_2022_12#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "inquirer": "^9.1.4",
+    "yargs": "^17.6.2"
   },
   "devDependencies": {
     "eslint": "^8.30.0"
